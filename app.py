@@ -7,7 +7,7 @@ def hello_world():
     return "Hello, DevOps!"
 
 #route menu 추가
-@app.route("/meun")
+@app.route("/menu")
 def meun():
     return render_template("menu.html")
 
