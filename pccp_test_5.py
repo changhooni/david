@@ -17,12 +17,5 @@
 #Rr × Rr 자가 수분 → 다음 세대 RR:Rr:rr = 1:2:1 비율
 #queries
 
-import random
-
-def solutions(querise):
-
-    answer = 0
-    return answer
-
-
-
+#일반적으로 두 신분이 이루는 각도는 한 바퀴를 360도로 하여 표현합니다.
+#따라서 각도가 360의 배수를 더하거나 빼더라도 같은 각을 의미합니다.
