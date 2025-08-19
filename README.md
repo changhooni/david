@@ -13,3 +13,7 @@ encoded_audio_data = base64.b64encode(fp.getvalue())
 
 ![david](https://github.com/changhooni/david/blob/main/templates/david.jpg)
 
+```python
+def hello_world():
+    # 파이썬 함수
+    print("Hello, World!")
