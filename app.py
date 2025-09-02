@@ -25,6 +25,10 @@ def meun():
 def test1():
     return render_template('test1.html')
 
+#route test2 추가
+@app.route("/test2")
+def test2():
+    return render_template('test2.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
