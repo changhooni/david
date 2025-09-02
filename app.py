@@ -20,11 +20,6 @@ def home():
 def meun():
     return render_template("menu.html")
 
-#route test2 추가
-@app.route("/test2")
-def test2():
-    return render_template('test2.html')
-
 #route test1 추가
 @app.route("/test1")
 def test1():
